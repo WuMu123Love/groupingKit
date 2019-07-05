@@ -13,7 +13,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor =[UIColor redColor];
-        TwoView * view2 = [[TwoView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+        TwoView * view2 = [[TwoView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+        view2.backgroundColor = [UIColor blackColor];
         [self addSubview:view2];
     }
     return self;
