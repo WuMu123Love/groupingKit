@@ -13,8 +13,10 @@
 #import "GroupToolHeader.h"
 #import "GroupFour.h"
 #import "GroupOneTool.h"
+#import "OneView.h"
 #import "GroupThree.h"
 #import "GroupTwo.h"
+#import "TwoView.h"
 
 FOUNDATION_EXPORT double groupingKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char groupingKitVersionString[];

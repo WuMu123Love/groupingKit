@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088238A6B51875BB5041603EE07343A3 /* groupingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB56AEF6AD1D96CC373D1BD8FA5D9F81 /* groupingKit-dummy.m */; };
 		0AA3228F03DB936A428333DE985BCDBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2CB620165AE2A1A088E625D941D5D862 /* GroupOneTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AE62C1832B7B5164BF23AD63E5F6C96D /* GroupOneTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30B4BE1C85BB569D482957048718DDB1 /* GroupToolHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DAC1D397639CBEF205B1EAD7DCFDB1 /* GroupToolHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B131B1E9F0BD60A08B8E19236294350 /* groupingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E35EE1966BBA6A246A518043060EEBD /* groupingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24112381F7A3C082B5858032B8468F3F /* GroupOneTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD30ED33BF673BBB9402D251249A37E /* GroupOneTool.m */; };
+		33B3B1DD9967B800ADB0995DD2D0F4BE /* GroupToolHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4851DB61E36347110AF5AA49521DDEF4 /* GroupToolHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD64C8DA804A2EB030B0D12C8BDDA8E /* GroupFour.m in Sources */ = {isa = PBXBuildFile; fileRef = EF33A6B12534B1B3DF7F8CB0A1E95757 /* GroupFour.m */; };
+		412EF3235F44DB15AF4F1E455B257B6B /* GroupTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4019D48825592743D05CBF8107E76770 /* GroupTwo.m */; };
 		4495477F5ECEF7483FEC5194A37E084C /* Pods-groupingKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8520DA4F15D877DAEDEADD53468E5C8 /* Pods-groupingKit_Example-dummy.m */; };
-		5454C1984FA917D49DF13F79C6188A18 /* GroupThree.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFE84338E411BA22FE08AC38DB2D4E8 /* GroupThree.m */; };
-		55835615986147A8E2DC0B72DD8200C0 /* GroupFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8ADA787185BFCBAA4986E3AAE4DE5 /* GroupFour.m */; };
-		578CE20FDBF76C57A1525B48DEF7FCA1 /* GroupTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCE24D4C3AEDB7749E15CE9FB2B8273 /* GroupTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F3B809E9D76AE292EEA3E3489535D51 /* TwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7CFAADE322A66990CD2818A081C431 /* TwoView.m */; };
 		5E933A91B044DCEB390AC09931D450B9 /* Pods-groupingKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A564475E790D0AFF4939840067B3D9 /* Pods-groupingKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D27857DD73FB8206B1368DE7CA4BF6A /* GroupThree.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9B29105D642C3D8C10D50C30FB98F9 /* GroupThree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7453D6139C2B69C9F0DB865B28977DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A8A5823186667DA8A5FE5EFAB2B0DE8B /* GroupFour.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CAA12B4B4561C6AE0AFF87DBB160A6 /* GroupFour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70994567478A53E4EFEB367B98D4B01C /* OneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CEEF807A78A6737457B3EF50EB5D12 /* OneView.m */; };
+		8A7D1772BEEC2B25286B7BA6CCFDC3DF /* groupingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC12D7600502690C18C327F7EB939F1 /* groupingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6BBEC5F0E3497AFFF011A876BD4F32 /* GroupThree.h in Headers */ = {isa = PBXBuildFile; fileRef = 3212B725581ECD82864873140FAC23D6 /* GroupThree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16ED68ED52D135DE6086D40E2E87AD3 /* TwoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44101CFCE9BEA3D15A4A751126535690 /* TwoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6F39C714E06977FB37E8949986C58A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A8C4B09BBACBCD776DA4FFAFBF3E4210 /* GroupFour.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D23D577860BFF9C4D3C6EAF73EFA497 /* GroupFour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE62A63B3B53CD0494216552BA711AC4 /* GroupOneTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B693074BB9B603C6C1BB22F72C4F938 /* GroupOneTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1E5A02BBCDEA47C2DFA5BB156C93A63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CBC383FB7EBCF0A236913D6877373E0A /* Pods-groupingKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4B2BA9C518D08F27D86F81D3DDAC53 /* Pods-groupingKit_Tests-dummy.m */; };
-		D791242FB64E8179AC9A6F84EA9F77BC /* groupingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24691C8DAB5AF185A830E6B122F24AED /* groupingKit-dummy.m */; };
+		D51B53FB8AE40E8433A6E228C8A430E3 /* GroupTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E56E27EC3786D98DF86556925D0A02C /* GroupTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7BD72039C58153B5A4B22C2235E3E40 /* Pods-groupingKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64260297ED64374918491444C0B3ACD4 /* Pods-groupingKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1410C1A0EC6F4FF0022D1D44C1F054C /* GroupOneTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C53F665E15B048DFD0B90121296B38 /* GroupOneTool.m */; };
-		E34DB23933C6C135875DBAA62D413988 /* GroupTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F4A450DD5864DE303AFDE89C2ECDC /* GroupTwo.m */; };
+		E8AF73BDC490633A914A8A4027A91C09 /* OneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E19E9538EACBB3610747328DE8D620C /* OneView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA5206E5E0823E9866488E201440E05 /* GroupThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEAD7E399369F64209998CE7256F189 /* GroupThree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,53 +36,57 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 463909DF4B504AF57132898E15E96F80;
+			remoteGlobalIDString = 9E697A275F8090EB61461EB26CABF4C6;
 			remoteInfo = groupingKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CAA12B4B4561C6AE0AFF87DBB160A6 /* GroupFour.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupFour.h; path = groupingKit/Classes/GroupFour/GroupFour.h; sourceTree = "<group>"; };
 		00FEB0FEBF9E9B815A6EBFEF133EE20A /* Pods-groupingKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-groupingKit_Example-resources.sh"; sourceTree = "<group>"; };
+		0AD30ED33BF673BBB9402D251249A37E /* GroupOneTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupOneTool.m; path = groupingKit/Classes/GroupOne/GroupOneTool.m; sourceTree = "<group>"; };
+		0D23D577860BFF9C4D3C6EAF73EFA497 /* GroupFour.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupFour.h; path = groupingKit/Classes/GroupFour/GroupFour.h; sourceTree = "<group>"; };
 		14A5C4A6FE6D4B0BE9572AB029CCA701 /* Pods-groupingKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-groupingKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		24691C8DAB5AF185A830E6B122F24AED /* groupingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "groupingKit-dummy.m"; sourceTree = "<group>"; };
+		1DEAD7E399369F64209998CE7256F189 /* GroupThree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupThree.m; path = groupingKit/Classes/GroupThree/GroupThree.m; sourceTree = "<group>"; };
+		284C1F2298481F2944D8FC7AC5E2F256 /* groupingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = groupingKit.xcconfig; sourceTree = "<group>"; };
 		2E966784F696679D7E11D6670E3C000A /* Pods-groupingKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-groupingKit_Tests.modulemap"; sourceTree = "<group>"; };
 		30C80BF333DE8BBD33175A47DC13AFA0 /* Pods-groupingKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-groupingKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212B725581ECD82864873140FAC23D6 /* GroupThree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupThree.h; path = groupingKit/Classes/GroupThree/GroupThree.h; sourceTree = "<group>"; };
 		3403398C900107E3D2554620881F6D52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34137E3E795A1D3414A98FE626496529 /* Pods-groupingKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-groupingKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		39672B30F82AFFDDE855729DB440A312 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C75FF1E5749FDAAB52A9A64156A67D0 /* groupingKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = groupingKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3E19E9538EACBB3610747328DE8D620C /* OneView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OneView.h; path = groupingKit/Classes/GroupOne/OneView.h; sourceTree = "<group>"; };
+		4019D48825592743D05CBF8107E76770 /* GroupTwo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupTwo.m; path = groupingKit/Classes/GroupTwo/GroupTwo.m; sourceTree = "<group>"; };
+		44101CFCE9BEA3D15A4A751126535690 /* TwoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TwoView.h; path = groupingKit/Classes/GroupTwo/TwoView.h; sourceTree = "<group>"; };
 		44ABA211E4BFB2D9B1259EE066692253 /* Pods_groupingKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_groupingKit_Example.framework; path = "Pods-groupingKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45BCE9123AF286BDD838BF335B8C8779 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F9B29105D642C3D8C10D50C30FB98F9 /* GroupThree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupThree.h; path = groupingKit/Classes/GroupThree/GroupThree.h; sourceTree = "<group>"; };
+		4851DB61E36347110AF5AA49521DDEF4 /* GroupToolHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupToolHeader.h; path = groupingKit/Classes/GroupToolHeader.h; sourceTree = "<group>"; };
 		5113D094E484B2BB0951929CF0B004E9 /* Pods_groupingKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_groupingKit_Tests.framework; path = "Pods-groupingKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B7BA849DA21C468A16BB67A21468C3 /* groupingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = groupingKit.framework; path = groupingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A564475E790D0AFF4939840067B3D9 /* Pods-groupingKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-groupingKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5E35EE1966BBA6A246A518043060EEBD /* groupingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "groupingKit-umbrella.h"; sourceTree = "<group>"; };
-		62DAC1D397639CBEF205B1EAD7DCFDB1 /* GroupToolHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupToolHeader.h; path = groupingKit/Classes/GroupToolHeader.h; sourceTree = "<group>"; };
 		64260297ED64374918491444C0B3ACD4 /* Pods-groupingKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-groupingKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		691C36851AC20C35F5A43E23C17CB4C4 /* Pods-groupingKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-groupingKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7AC4581003EE27E0A18FA9CCDA4A2D51 /* groupingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = groupingKit.xcconfig; sourceTree = "<group>"; };
+		75CEEF807A78A6737457B3EF50EB5D12 /* OneView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OneView.m; path = groupingKit/Classes/GroupOne/OneView.m; sourceTree = "<group>"; };
+		7B693074BB9B603C6C1BB22F72C4F938 /* GroupOneTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupOneTool.h; path = groupingKit/Classes/GroupOne/GroupOneTool.h; sourceTree = "<group>"; };
+		7E56E27EC3786D98DF86556925D0A02C /* GroupTwo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupTwo.h; path = groupingKit/Classes/GroupTwo/GroupTwo.h; sourceTree = "<group>"; };
 		7EF9BE895A0612451FDF7079C928BAD0 /* Pods-groupingKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-groupingKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		807C466B6E648A5696AA560F98EAD126 /* Pods-groupingKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-groupingKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		821F8111EF12C1BC09C6587F19343899 /* groupingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "groupingKit-prefix.pch"; sourceTree = "<group>"; };
 		86BAD9AA37241E39CDCC7FC41DCFB8F1 /* Pods-groupingKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-groupingKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8EE8ADA787185BFCBAA4986E3AAE4DE5 /* GroupFour.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupFour.m; path = groupingKit/Classes/GroupFour/GroupFour.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93C53F665E15B048DFD0B90121296B38 /* GroupOneTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupOneTool.m; path = groupingKit/Classes/GroupOne/GroupOneTool.m; sourceTree = "<group>"; };
+		9B7CFAADE322A66990CD2818A081C431 /* TwoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TwoView.m; path = groupingKit/Classes/GroupTwo/TwoView.m; sourceTree = "<group>"; };
 		9BB6752A2C23160E81EEDC96359DA0CE /* Pods-groupingKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-groupingKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE62C1832B7B5164BF23AD63E5F6C96D /* GroupOneTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupOneTool.h; path = groupingKit/Classes/GroupOne/GroupOneTool.h; sourceTree = "<group>"; };
-		B19A581D2224AA2790929C405E7D0A43 /* groupingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = groupingKit.modulemap; sourceTree = "<group>"; };
+		ADBA21B5A69D23BB7F3DC8023D1D7980 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B28D887B4009368EBF998208B7E35054 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B42C196D00EDB5F5698B872B9A17371C /* Pods-groupingKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-groupingKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BC2F4A450DD5864DE303AFDE89C2ECDC /* GroupTwo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupTwo.m; path = groupingKit/Classes/GroupTwo/GroupTwo.m; sourceTree = "<group>"; };
 		BF94EE817FE97F9A5E51C844F35DF3D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFCE24D4C3AEDB7749E15CE9FB2B8273 /* GroupTwo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupTwo.h; path = groupingKit/Classes/GroupTwo/GroupTwo.h; sourceTree = "<group>"; };
+		C02D3705C9C944153630ED70D6A64E30 /* groupingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = groupingKit.modulemap; sourceTree = "<group>"; };
 		C8520DA4F15D877DAEDEADD53468E5C8 /* Pods-groupingKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-groupingKit_Example-dummy.m"; sourceTree = "<group>"; };
-		CCD4D49DC592919A382EAE33870F184E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CCFE84338E411BA22FE08AC38DB2D4E8 /* GroupThree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupThree.m; path = groupingKit/Classes/GroupThree/GroupThree.m; sourceTree = "<group>"; };
-		D1C68F6318763E4F38D7037AB17B8000 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB56AEF6AD1D96CC373D1BD8FA5D9F81 /* groupingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "groupingKit-dummy.m"; sourceTree = "<group>"; };
+		CB9355441BAFC62F6C0B30E6FC3C01D8 /* groupingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "groupingKit-prefix.pch"; sourceTree = "<group>"; };
+		CBC12D7600502690C18C327F7EB939F1 /* groupingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "groupingKit-umbrella.h"; sourceTree = "<group>"; };
 		DF4B2BA9C518D08F27D86F81D3DDAC53 /* Pods-groupingKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-groupingKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		E0523DBC48E37C5B9AA27EE0B29EA0FC /* Pods-groupingKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-groupingKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EB0120517D7C7F7725C5A9BE1E9CB8B7 /* groupingKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = groupingKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF33A6B12534B1B3DF7F8CB0A1E95757 /* GroupFour.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupFour.m; path = groupingKit/Classes/GroupFour/GroupFour.m; sourceTree = "<group>"; };
 		EFF44922ED78A1382FD6FDF1D5CD0928 /* Pods-groupingKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-groupingKit_Example.modulemap"; sourceTree = "<group>"; };
 		F7B328C862D981D924C842C3DD3CB628 /* Pods-groupingKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-groupingKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,19 +100,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F1D60D84B43CB9EB68E234C4F59F3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F39C714E06977FB37E8949986C58A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E77C9C28D1EAA39332193B1DE069A0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0AA3228F03DB936A428333DE985BCDBF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93DADC02F99EDE4342B109405389A259 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7453D6139C2B69C9F0DB865B28977DA8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +137,26 @@
 			path = "Target Support Files/Pods-groupingKit_Tests";
 			sourceTree = "<group>";
 		};
+		271FEC8ACCE9E49DDFBF5718511BA275 /* GroupFour */ = {
+			isa = PBXGroup;
+			children = (
+				0D23D577860BFF9C4D3C6EAF73EFA497 /* GroupFour.h */,
+				EF33A6B12534B1B3DF7F8CB0A1E95757 /* GroupFour.m */,
+			);
+			name = GroupFour;
+			sourceTree = "<group>";
+		};
+		39840796E30C53A641721ADECCAC786E /* GroupTwo */ = {
+			isa = PBXGroup;
+			children = (
+				7E56E27EC3786D98DF86556925D0A02C /* GroupTwo.h */,
+				4019D48825592743D05CBF8107E76770 /* GroupTwo.m */,
+				44101CFCE9BEA3D15A4A751126535690 /* TwoView.h */,
+				9B7CFAADE322A66990CD2818A081C431 /* TwoView.m */,
+			);
+			name = GroupTwo;
+			sourceTree = "<group>";
+		};
 		3C1500F80965033376F9F8380543BB9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,21 +165,6 @@
 				5113D094E484B2BB0951929CF0B004E9 /* Pods_groupingKit_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5938C293C43FFA1BE1BE663418857AD0 /* groupingKit */ = {
-			isa = PBXGroup;
-			children = (
-				62DAC1D397639CBEF205B1EAD7DCFDB1 /* GroupToolHeader.h */,
-				603A76903598CC7FB6A436516FF8E5A3 /* GroupFour */,
-				BE8A5DD0073E1D4E36D42FE310408BC1 /* GroupOne */,
-				7D9EE81E18CB118FC510CDEE51724001 /* GroupThree */,
-				93BCB4D4B31329D9D54F1958FB3DC1FA /* GroupTwo */,
-				E392F96534107BCF9604E301978E4592 /* Pod */,
-				D967C7421A0704B3F780F28F6C0AE206 /* Support Files */,
-			);
-			name = groupingKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		5E96071ED8146777EAE0F0D752890B85 /* Pods-groupingKit_Example */ = {
@@ -172,30 +185,27 @@
 			path = "Target Support Files/Pods-groupingKit_Example";
 			sourceTree = "<group>";
 		};
-		603A76903598CC7FB6A436516FF8E5A3 /* GroupFour */ = {
+		6CF61DBE176147D0325268F4A3684D6B /* groupingKit */ = {
 			isa = PBXGroup;
 			children = (
-				00CAA12B4B4561C6AE0AFF87DBB160A6 /* GroupFour.h */,
-				8EE8ADA787185BFCBAA4986E3AAE4DE5 /* GroupFour.m */,
+				4851DB61E36347110AF5AA49521DDEF4 /* GroupToolHeader.h */,
+				271FEC8ACCE9E49DDFBF5718511BA275 /* GroupFour */,
+				AF59095250C4EEFC9ACAB10377A59884 /* GroupOne */,
+				A48D2EE07CF9A9DF99666CB5EAEF3B66 /* GroupThree */,
+				39840796E30C53A641721ADECCAC786E /* GroupTwo */,
+				DF3A30A537FFF4A32ECB7E2AC8CEC29F /* Pod */,
+				9F051787555EFF26FC5AA07C3879B819 /* Support Files */,
 			);
-			name = GroupFour;
+			name = groupingKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6DD0BB0EF3C64E7F54CECC85C809B886 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5938C293C43FFA1BE1BE663418857AD0 /* groupingKit */,
+				6CF61DBE176147D0325268F4A3684D6B /* groupingKit */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7D9EE81E18CB118FC510CDEE51724001 /* GroupThree */ = {
-			isa = PBXGroup;
-			children = (
-				4F9B29105D642C3D8C10D50C30FB98F9 /* GroupThree.h */,
-				CCFE84338E411BA22FE08AC38DB2D4E8 /* GroupThree.m */,
-			);
-			name = GroupThree;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -209,13 +219,38 @@
 			);
 			sourceTree = "<group>";
 		};
-		93BCB4D4B31329D9D54F1958FB3DC1FA /* GroupTwo */ = {
+		9F051787555EFF26FC5AA07C3879B819 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFCE24D4C3AEDB7749E15CE9FB2B8273 /* GroupTwo.h */,
-				BC2F4A450DD5864DE303AFDE89C2ECDC /* GroupTwo.m */,
+				C02D3705C9C944153630ED70D6A64E30 /* groupingKit.modulemap */,
+				284C1F2298481F2944D8FC7AC5E2F256 /* groupingKit.xcconfig */,
+				CB56AEF6AD1D96CC373D1BD8FA5D9F81 /* groupingKit-dummy.m */,
+				CB9355441BAFC62F6C0B30E6FC3C01D8 /* groupingKit-prefix.pch */,
+				CBC12D7600502690C18C327F7EB939F1 /* groupingKit-umbrella.h */,
+				39672B30F82AFFDDE855729DB440A312 /* Info.plist */,
 			);
-			name = GroupTwo;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/groupingKit";
+			sourceTree = "<group>";
+		};
+		A48D2EE07CF9A9DF99666CB5EAEF3B66 /* GroupThree */ = {
+			isa = PBXGroup;
+			children = (
+				3212B725581ECD82864873140FAC23D6 /* GroupThree.h */,
+				1DEAD7E399369F64209998CE7256F189 /* GroupThree.m */,
+			);
+			name = GroupThree;
+			sourceTree = "<group>";
+		};
+		AF59095250C4EEFC9ACAB10377A59884 /* GroupOne */ = {
+			isa = PBXGroup;
+			children = (
+				7B693074BB9B603C6C1BB22F72C4F938 /* GroupOneTool.h */,
+				0AD30ED33BF673BBB9402D251249A37E /* GroupOneTool.m */,
+				3E19E9538EACBB3610747328DE8D620C /* OneView.h */,
+				75CEEF807A78A6737457B3EF50EB5D12 /* OneView.m */,
+			);
+			name = GroupOne;
 			sourceTree = "<group>";
 		};
 		B8AD79F45A1DEF79F0CAE988F94E2F7A /* Targets Support Files */ = {
@@ -235,15 +270,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE8A5DD0073E1D4E36D42FE310408BC1 /* GroupOne */ = {
-			isa = PBXGroup;
-			children = (
-				AE62C1832B7B5164BF23AD63E5F6C96D /* GroupOneTool.h */,
-				93C53F665E15B048DFD0B90121296B38 /* GroupOneTool.m */,
-			);
-			name = GroupOne;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,26 +278,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D967C7421A0704B3F780F28F6C0AE206 /* Support Files */ = {
+		DF3A30A537FFF4A32ECB7E2AC8CEC29F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B19A581D2224AA2790929C405E7D0A43 /* groupingKit.modulemap */,
-				7AC4581003EE27E0A18FA9CCDA4A2D51 /* groupingKit.xcconfig */,
-				24691C8DAB5AF185A830E6B122F24AED /* groupingKit-dummy.m */,
-				821F8111EF12C1BC09C6587F19343899 /* groupingKit-prefix.pch */,
-				5E35EE1966BBA6A246A518043060EEBD /* groupingKit-umbrella.h */,
-				45BCE9123AF286BDD838BF335B8C8779 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/groupingKit";
-			sourceTree = "<group>";
-		};
-		E392F96534107BCF9604E301978E4592 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EB0120517D7C7F7725C5A9BE1E9CB8B7 /* groupingKit.podspec */,
-				D1C68F6318763E4F38D7037AB17B8000 /* LICENSE */,
-				CCD4D49DC592919A382EAE33870F184E /* README.md */,
+				3C75FF1E5749FDAAB52A9A64156A67D0 /* groupingKit.podspec */,
+				ADBA21B5A69D23BB7F3DC8023D1D7980 /* LICENSE */,
+				B28D887B4009368EBF998208B7E35054 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -279,24 +291,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		65FD72A450AF4AA9998C3F6EF0CED186 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C4B09BBACBCD776DA4FFAFBF3E4210 /* GroupFour.h in Headers */,
+				8A7D1772BEEC2B25286B7BA6CCFDC3DF /* groupingKit-umbrella.h in Headers */,
+				AE62A63B3B53CD0494216552BA711AC4 /* GroupOneTool.h in Headers */,
+				9C6BBEC5F0E3497AFFF011A876BD4F32 /* GroupThree.h in Headers */,
+				33B3B1DD9967B800ADB0995DD2D0F4BE /* GroupToolHeader.h in Headers */,
+				D51B53FB8AE40E8433A6E228C8A430E3 /* GroupTwo.h in Headers */,
+				E8AF73BDC490633A914A8A4027A91C09 /* OneView.h in Headers */,
+				A16ED68ED52D135DE6086D40E2E87AD3 /* TwoView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E950037E8959C82D105C03E179D38C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5E933A91B044DCEB390AC09931D450B9 /* Pods-groupingKit_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87B17592EBD49632CC8C2E8AC0221E58 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8A5823186667DA8A5FE5EFAB2B0DE8B /* GroupFour.h in Headers */,
-				3B131B1E9F0BD60A08B8E19236294350 /* groupingKit-umbrella.h in Headers */,
-				2CB620165AE2A1A088E625D941D5D862 /* GroupOneTool.h in Headers */,
-				6D27857DD73FB8206B1368DE7CA4BF6A /* GroupThree.h in Headers */,
-				30B4BE1C85BB569D482957048718DDB1 /* GroupToolHeader.h in Headers */,
-				578CE20FDBF76C57A1525B48DEF7FCA1 /* GroupTwo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,13 +325,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		463909DF4B504AF57132898E15E96F80 /* groupingKit */ = {
+		9E697A275F8090EB61461EB26CABF4C6 /* groupingKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9888E587C5E64FFE79B7482F495A1291 /* Build configuration list for PBXNativeTarget "groupingKit" */;
+			buildConfigurationList = BA05E78122CD0E69FFF50FA15B0724C1 /* Build configuration list for PBXNativeTarget "groupingKit" */;
 			buildPhases = (
-				DCD154F1F86585062FD9D2CE9E7556B6 /* Sources */,
-				93DADC02F99EDE4342B109405389A259 /* Frameworks */,
-				87B17592EBD49632CC8C2E8AC0221E58 /* Headers */,
+				4879E390673EF3AE12372FB21F90F435 /* Sources */,
+				3F1D60D84B43CB9EB68E234C4F59F3F0 /* Frameworks */,
+				65FD72A450AF4AA9998C3F6EF0CED186 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -384,7 +398,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				463909DF4B504AF57132898E15E96F80 /* groupingKit */,
+				9E697A275F8090EB61461EB26CABF4C6 /* groupingKit */,
 				C69AA4021DE7EEEAA9658C5DAE02AD07 /* Pods-groupingKit_Example */,
 				EA1A8FFE3B745E441CEB0E62D2AE6249 /* Pods-groupingKit_Tests */,
 			);
@@ -392,6 +406,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4879E390673EF3AE12372FB21F90F435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD64C8DA804A2EB030B0D12C8BDDA8E /* GroupFour.m in Sources */,
+				088238A6B51875BB5041603EE07343A3 /* groupingKit-dummy.m in Sources */,
+				24112381F7A3C082B5858032B8468F3F /* GroupOneTool.m in Sources */,
+				EFA5206E5E0823E9866488E201440E05 /* GroupThree.m in Sources */,
+				412EF3235F44DB15AF4F1E455B257B6B /* GroupTwo.m in Sources */,
+				70994567478A53E4EFEB367B98D4B01C /* OneView.m in Sources */,
+				4F3B809E9D76AE292EEA3E3489535D51 /* TwoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56790B6758306AFF7CC52DE6C782B7EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,30 +436,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCD154F1F86585062FD9D2CE9E7556B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55835615986147A8E2DC0B72DD8200C0 /* GroupFour.m in Sources */,
-				D791242FB64E8179AC9A6F84EA9F77BC /* groupingKit-dummy.m in Sources */,
-				E1410C1A0EC6F4FF0022D1D44C1F054C /* GroupOneTool.m in Sources */,
-				5454C1984FA917D49DF13F79C6188A18 /* GroupThree.m in Sources */,
-				E34DB23933C6C135875DBAA62D413988 /* GroupTwo.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		9DE6C3E531051E5AB9527395EE122703 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = groupingKit;
-			target = 463909DF4B504AF57132898E15E96F80 /* groupingKit */;
+			target = 9E697A275F8090EB61461EB26CABF4C6 /* groupingKit */;
 			targetProxy = 9A3B9DAA9D67AE880EE2B28579BB1904 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3BB769C39B0F8D10D455916AAA7F9935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284C1F2298481F2944D8FC7AC5E2F256 /* groupingKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/groupingKit/groupingKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/groupingKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/groupingKit/groupingKit.modulemap";
+				PRODUCT_NAME = groupingKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F8442D270BBCF58EA9942FCECAF1120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284C1F2298481F2944D8FC7AC5E2F256 /* groupingKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/groupingKit/groupingKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/groupingKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/groupingKit/groupingKit.modulemap";
+				PRODUCT_NAME = groupingKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9C097E227A80FD37673EB5AC781DDA0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7EF9BE895A0612451FDF7079C928BAD0 /* Pods-groupingKit_Example.release.xcconfig */;
@@ -458,37 +535,6 @@
 				PRODUCT_NAME = Pods_groupingKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A569BBB44008CA15BE5E8601E375FC82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AC4581003EE27E0A18FA9CCDA4A2D51 /* groupingKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/groupingKit/groupingKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/groupingKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/groupingKit/groupingKit.modulemap";
-				PRODUCT_NAME = groupingKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -714,36 +760,6 @@
 			};
 			name = Release;
 		};
-		FD23835968516722F175BBC9AF5E3D7D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AC4581003EE27E0A18FA9CCDA4A2D51 /* groupingKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/groupingKit/groupingKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/groupingKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/groupingKit/groupingKit.modulemap";
-				PRODUCT_NAME = groupingKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -765,20 +781,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9888E587C5E64FFE79B7482F495A1291 /* Build configuration list for PBXNativeTarget "groupingKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD23835968516722F175BBC9AF5E3D7D /* Debug */,
-				A569BBB44008CA15BE5E8601E375FC82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9ACA5B9E364CCBCFC79CA7D67110B7EC /* Build configuration list for PBXNativeTarget "Pods-groupingKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B99A84112CC9EAAE063916D65CC74BC2 /* Debug */,
 				B1DBF51DFDD2883DCE7E1476BE745B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA05E78122CD0E69FFF50FA15B0724C1 /* Build configuration list for PBXNativeTarget "groupingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB769C39B0F8D10D455916AAA7F9935 /* Debug */,
+				5F8442D270BBCF58EA9942FCECAF1120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
