@@ -1,0 +1,24 @@
+PODS:
+  - groupingKit (1):
+    - groupingKit/GroupFour (= 1)
+    - groupingKit/GroupOne (= 1)
+    - groupingKit/GroupThree (= 1)
+    - groupingKit/GroupTwo (= 1)
+  - groupingKit/GroupFour (1)
+  - groupingKit/GroupOne (1)
+  - groupingKit/GroupThree (1)
+  - groupingKit/GroupTwo (1)
+
+DEPENDENCIES:
+  - groupingKit (from `../`)
+
+EXTERNAL SOURCES:
+  groupingKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  groupingKit: 32211c3e64ed10bc2fe72974104ae2437017a7ba
+
+PODFILE CHECKSUM: a169e11eff25ecb0777ac813164efbda1d89ba03
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,41 @@
+{
+  "name": "groupingKit",
+  "version": "1",
+  "summary": "A short description of groupingKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/WuMu123Love/groupingKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1361825681@qq.com": "wumuanhuihf@163.com"
+  },
+  "source": {
+    "git": "https://github.com/WuMu123Love/groupingKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "groupingKit/Classes/*",
+  "public_header_files": "groupingKit/Classes/GroupToolHeader.h",
+  "subspecs": [
+    {
+      "name": "GroupOne",
+      "source_files": "groupingKit/Classes/GroupOne/*"
+    },
+    {
+      "name": "GroupTwo",
+      "source_files": "groupingKit/Classes/GroupTwo/*"
+    },
+    {
+      "name": "GroupThree",
+      "source_files": "groupingKit/Classes/GroupThree/*"
+    },
+    {
+      "name": "GroupFour",
+      "source_files": "groupingKit/Classes/GroupFour/*"
+    }
+  ]
+}
