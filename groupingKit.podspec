@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'groupingKit'
-  s.version          = '1'
+  s.version          = '2'
   s.summary          = 'A short description of groupingKit.'
 
 # This description is used to generate tags and improve search results.
@@ -44,16 +44,17 @@ s.public_header_files = 'groupingKit/Classes/GroupToolHeader.h'
 
 #-------文件分层----------#
 s.subspec 'GroupOne' do |ss|
-ss.source_files = 'groupingKit/Classes/GroupOne/*'
+ss.source_files = 'groupingKit/Classes/GroupOne/**/*.{h,m}'
+ ss.dependency 'groupingKit/GroupTwo'
 end
 s.subspec 'GroupTwo' do |ss|
-ss.source_files = 'groupingKit/Classes/GroupTwo/*'
+ss.source_files = 'groupingKit/Classes/GroupTwo/*.{h,m}'
 end
 s.subspec 'GroupThree' do |ss|
-ss.source_files = 'groupingKit/Classes/GroupThree/*'
+ss.source_files = 'groupingKit/Classes/GroupThree/*.{h,m}'
 end
 s.subspec 'GroupFour' do |ss|
-ss.source_files = 'groupingKit/Classes/GroupFour/*'
+ss.source_files = 'groupingKit/Classes/GroupFour/*.{h,m}'
 end
 
 

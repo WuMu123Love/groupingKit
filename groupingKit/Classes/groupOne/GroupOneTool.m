@@ -7,7 +7,6 @@
 //
 
 #import "GroupOneTool.h"
-
 @implementation GroupOneTool
 
 @end

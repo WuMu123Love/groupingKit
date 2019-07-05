@@ -6,15 +6,17 @@
 //
 
 #import "OneView.h"
-
+#import "TwoView.h"
 @implementation OneView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.backgroundColor =[UIColor redColor];
+        TwoView * view2 = [[TwoView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+        [self addSubview:view2];
+    }
+    return self;
 }
-*/
 
 @end

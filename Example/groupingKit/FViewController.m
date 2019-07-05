@@ -21,7 +21,7 @@
     [super viewDidLoad];
     OneView * v1 =[[OneView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:v1];
-    
+
     TwoView * v2 = [[TwoView alloc] initWithFrame:CGRectMake(100, 250, 100, 100)];
     [self.view addSubview:v2];
     

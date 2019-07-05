@@ -23,19 +23,24 @@
   "subspecs": [
     {
       "name": "GroupOne",
-      "source_files": "groupingKit/Classes/GroupOne/*"
+      "source_files": "groupingKit/Classes/GroupOne/**/*.{h,m}",
+      "dependencies": {
+        "groupingKit/GroupTwo": [
+
+        ]
+      }
     },
     {
       "name": "GroupTwo",
-      "source_files": "groupingKit/Classes/GroupTwo/*"
+      "source_files": "groupingKit/Classes/GroupTwo/*.{h,m}"
     },
     {
       "name": "GroupThree",
-      "source_files": "groupingKit/Classes/GroupThree/*"
+      "source_files": "groupingKit/Classes/GroupThree/*.{h,m}"
     },
     {
       "name": "GroupFour",
-      "source_files": "groupingKit/Classes/GroupFour/*"
+      "source_files": "groupingKit/Classes/GroupFour/*.{h,m}"
     }
   ]
 }
